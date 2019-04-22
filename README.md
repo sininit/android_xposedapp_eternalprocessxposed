@@ -1,4 +1,6 @@
+```
 切换分支可以看到各个版本的源码
+
 Switch branches can see all versions of the source code
 
 普通锁: 在系统内存低的时候自动清理应用 可以不被清理 你可以手动强制停止这个应用
@@ -30,6 +32,6 @@ Xposed修改有风险 安装本应用代表你愿意承担风险.请谨慎操作
 
 更多说明:
 新应用安装时自动添加锁 (miui如果无效请在 安全管理-应用管理-权限-自启动管理 允许本应用自动启动(接收广播))
-
+```
 
 内个谁233(WhichWho) https://github.com/WhichWho
