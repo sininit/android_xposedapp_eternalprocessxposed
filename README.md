@@ -1,11 +1,14 @@
 ```
-切换分支可以看到各个版本的源码
-Switch branches can see all versions of the source code
+◇ 切换分支可以看到各个版本的源码
+◇ Switch branches can see all versions of the source code
 
-★软件需要Xposed框架的支持
-★ Software needs the support of Xposed framework
+◇ 每个分支已经有编译好的app安装包 /app/build/bin/app.apk 可自行下载
+◇ Each branch already has a compiled app installation package/app/build/bin/app.apk to download on its own
 
-★主要用于经常被干掉后台的手机
+★ 模块需要Xposed框架的支持
+★ Module needs the support of Xposed framework
+
+★ 主要用于经常被干掉后台的手机
 ★ Mainly used for mobile phones that are often killed backstage
 
 ● 此Xposed模块通过修改进程的OOM_adj参数,
