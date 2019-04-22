@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+	<uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"  /> 
+    <uses-permission android:name="android.permission.GET_TASKS" />
+		
+	<application
+		android:resizeableActivity="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+		<activity
+            android:name=".activity.AboutActivity" />
+        <activity
+            android:name=".activity.SettingActivity" />
+		
+		<activity
+			android:theme="@style/AppTheme.NoActionBar"
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+			>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+			</intent-filter>
+        </activity>
+		<activity-alias
+            android:name="top.fols.aapp.eternalprocessxposed.Hook"
+            android:targetActivity="top.fols.aapp.eternalprocessxposed.activity.MainActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+		<meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="通过修改进程LMK oom source adj参数达到进程常驻的效果\nModify the process lmk oom source adj parameters to achieve the effect of process resident" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54+" />
+
+		<receiver
+			android:name=".AppInstallReciver" >  
+            <intent-filter>  
+                <!-- 一个新应用包已经安装在设备上，数据包括包名（监听所在的app，新安装时，不能接收到这个广播） -->  
+                <action android:name="android.intent.action.PACKAGE_ADDED" />  
+                <!-- 一个新版本的应用安装到设备，替换之前已经存在的版本  替换时会先收到卸载的再收到替换的， 替换自身也能收到-->  
+                <!-- <action android:name="android.intent.action.PACKAGE_REPLACED" /> -->
+                <!-- 一个已存在的应用程序包已经从设备上移除，包括包名（卸载监听所在的app，则无法接收到） -->  
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />  
+                <data android:scheme="package" />  
+            </intent-filter>  
+        </receiver>  
+
+    </application>
+
+</manifest>
