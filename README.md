@@ -1,3 +1,5 @@
+Xda link: https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lock-v1-0-t3797243
+
 ```
 ◇ 切换分支可以看到各个版本的源码
 ◇ Switch branches can see all versions of the source code
