@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">Eternal Process Lock</string>
+    <string name="donation">Donation</string>
+	<string name="setting">Setting</string>
+	<string name="about">About</string>
+	
+	<string name="deselect">Deselect</string>
+	<string name="select_all">Select All</string>
+	<string name="select_invert">Invert Select</string>
+	<string name="select_systemapp">Select System App</string>
+	<string name="select_userapp">Select User App</string>
+	<string name="select_homeapp">Select Home App</string>
+	<string name="select_inputmethodapp">Select InputMethod App</string>
+	<string name="select_canstartapp">Select Can From Home Start The App</string>
+	<string name="select_unknownapp">Select Unknown App</string>
+	<string name="not_select_systemapp">Not Select System App</string>
+	<string name="not_select_userapp">Not Select User App</string>
+	<string name="not_select_homeapp">Not Select Home App</string>
+	<string name="not_select_inputmethodapp">Not Select InputMethod App</string>
+	<string name="not_select_canstartapp">Not Select Can From Home Start The App</string>
+	<string name="not_select_unknownapp">Not Select Unknown App</string>
+
+	<string name="remove_lock">Remove Lock</string>
+	<string name="add_lock">Add Lock</string>
+	<string name="add_eternal_lock">Add Eternal Lock</string>
+
+	<string name="save_data_error">Save Data Error</string>
+
+	<string name="inactivated_xposed_modules">Inactivated Xposed Modules</string>
+	<string name="xposed_modules_no_update">Xposed Modules No Update</string>
+	<string name="restart_app_effective">You may need to restart the application configuration to take effect</string>
+	<string name="eternallock_need_restart_device_effective">Canceling eternal lock may require restarting the device to take effect</string>
+
+	<string name="qqgroup">Tencent QQ Group</string>
+
+	<string name="email">Email</string>
+	<string name="technical_support">Technical support</string>
+	<string name="technical_support_neigeshui233">内个谁233 (Ui support)</string>
+
+	<string name="author__gxin">GXin</string>
+	<string name="author">Author</string>
+	<string name="version">Version</string>
+
+	<string name="simple_one_sentence_introduction">The Eternal Process</string>
+
+	<string name="successfully_copied">Successfully copied</string>
+	<string name="not_found_file">Not found file</string>
+	
+	<string name="failed_to_start_alipay">Failed to start Alipay</string>
+	<string name="failed_to_start_qq">Failed to start Tencent QQ</string>
+
+	<string name="running">Running</string>
+	<string name="select_locked">Select Locked</string>
+	<string name="not_select_locked">Not Select Locked</string>
+	<string name="select_ordinary_lock">Select Ordinary Lock</string>
+	<string name="not_select_ordinary_lock">Not Select Ordinary Lock</string>
+	<string name="select_eternal_lock">Select Eternal Lock</string>
+	<string name="not_select_eternal_lock">Not Select Eternal Lock</string>
+
+	<string name="showsystemapp">Show System App</string>
+	<string name="unknown">Unknown</string>
+	<string name="showeternallockoptions">Show Eternal Lock Options</string>
+	<string name="showhomeicon">Show Home ICon</string>
+	
+	<string name="newappinstallautoaddlock">Automatically Add Lock During New Application Installation</string>
+	<string name="newappinstallautoaddlockreminder">Has Been Added To The New Lock Application</string>
+	<string name="reminder">Reminder</string>
+	
+	<string name="youmayneedtorestartyourdevice">You may need to restart your device</string>
+	
+	<string name="help">Help</string>
+</resources>
