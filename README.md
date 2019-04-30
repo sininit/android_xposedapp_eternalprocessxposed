@@ -6,9 +6,7 @@ Xda link: https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lo
 
 # 更新后需要取消勾选模块再勾选模块才重启系统
 # Updated to uncheck the module to check the module to restart the system
-
-* 每个分支已经有编译好的app安装包 /app/build/bin/app.apk 可自行下载
-* Each branch already has a compiled app installation package/app/build/bin/app.apk to download on its own
+ 
 
 * 模块需要Xposed框架的支持
 * Module needs the support of Xposed framework
@@ -36,7 +34,10 @@ Eternal Lock(RED lock): No matter under any circumstances the system can clean u
 太极magisk模块4.7.0 下载 https://www.lanzous.com/i37r5vi
 在太极 启动模块 并 添加应用 “Android 系统” 重启设备 才能生效
 太极 magisk 版只支持 Android 8.0 以上的系统  
-**** 由于太极magisk并不对所有设备支持 如果你要使用太极magisk 建议你安装 (mm管理器)[https://pan.baidu.com/s/1N777zY8aMKVkJISCt5IWKg] 以防系统出现异常
+由于太极magisk并不对所有设备支持完美 如果你要使用太极magisk 建议你安装magisk mm管理器以防止系统出现问题
+ (Magisk mm管理器）https://pan.baidu.com/s/1N777zY8aMKVkJISCt5IWKg
+ (Magisk mm管理器）twrp终端命令输入命令行/data/media/mm按回车键便可看到模块列表
+ 
 
 xposed说明：
 如果Xposed版出现异常无法启动系统，请进入recovery删除目录/data/user_de/0/de.robv.android.xposed.installer/conf/或目录/data/data/de.robv.android.xposed.installer/conf/然后重启手机
