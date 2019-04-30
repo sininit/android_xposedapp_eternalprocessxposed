@@ -1,4 +1,5 @@
-Xda link: https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lock-v1-0-t3797243
+[Xda link](https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lock-v1-0-t3797243)
+
 [Help](https://github.com/xiaoxinwangluo/android_xposedapp_eternalprocessxposed/tree/master/help)
 
 ```
