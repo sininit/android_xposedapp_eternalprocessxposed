@@ -27,9 +27,7 @@ Normal Lock(black lock): Automatic cleanup app can not be cleaned when system me
 永恒锁: 无论在什么情况下系统都无法清理你的应用后台
 Eternal Lock(RED lock): No matter under any circumstances the system can clean up your app background
 
-太极magisk说明：
-在9.0可能出现各种问题能不用尽量不要用
-支持太极Magisk 5.1.4及以上版本
+太极magisk说明
 太极5.1.8下载 https://taichi.ctfile.com/fs/19604958-365278317
 太极magisk模块4.7.0 下载 https://www.lanzous.com/i37r5vi
 在太极 启动模块 并 添加应用 “Android 系统” 重启设备 才能生效
