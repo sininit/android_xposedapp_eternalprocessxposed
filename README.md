@@ -7,12 +7,8 @@ Xda link: https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lo
 # 更新后需要取消勾选模块再勾选模块
 # After updating the module, uncheck the module and then tick the module
 
-
 * 模块需要Xposed框架的支持
 * Module needs the support of Xposed framework
-
-* 主要用于经常被干掉后台的手机
-* Mainly used for mobile phones that are often killed backstage
 
 * 此Xposed模块通过修改进程的OOM_adj参数,
 达到在低运存时最大程度防止应用被系统清理, 当然你还是可以手动去停止应用
@@ -27,14 +23,14 @@ Normal Lock(black lock): Automatic cleanup app can not be cleaned when system me
 永恒锁: 无论在什么情况下系统都无法清理你的应用后台
 Eternal Lock(RED lock): No matter under any circumstances the system can clean up your app background
 
-太极magisk说明：
-太极5.1.8下载 https://taichi.ctfile.com/fs/19604958-365278317
-太极magisk模块4.7.0 下载 https://www.lanzous.com/i37r5vi
-在太极 启动模块 并 添加应用 “Android 系统” 重启设备 才能生效
-太极 magisk 版只支持 Android 8.0 以上的系统  
-由于太极magisk并不对所有设备支持完美 如果你要使用太极magisk 建议你安装magisk mm管理器以防止系统出现问题
- (Magisk mm管理器）https://pan.baidu.com/s/1N777zY8aMKVkJISCt5IWKg
- (Magisk mm管理器）twrp终端命令输入命令行/data/media/mm按回车键便可看到模块列表
+**** 太极magisk说明：
+**** 太极5.1.8下载 https://taichi.ctfile.com/fs/19604958-365278317
+**** 太极magisk模块4.7.0 下载 https://www.lanzous.com/i37r5vi
+**** 在太极 启动模块 并 添加应用 “Android 系统” 重启设备 才能生效
+**** 太极 magisk 版只支持 Android 8.0 以上的系统  
+**** 由于太极magisk并不对所有设备支持完美 如果你要使用太极magisk 建议你安装magisk mm管理器以防止系统出现问题
+**** (Magisk mm管理器）https://pan.baidu.com/s/1N777zY8aMKVkJISCt5IWKg
+**** (Magisk mm管理器）twrp终端命令输入命令行/data/media/mm按回车键便可看到模块列表
  
 
 xposed说明：
