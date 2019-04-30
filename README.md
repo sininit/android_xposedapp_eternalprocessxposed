@@ -1,7 +1,7 @@
 Xda link: https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lock-v1-0-t3797243
+[Help](https://github.com/xiaoxinwangluo/android_xposedapp_eternalprocessxposed/tree/master/help)
 
 ```
-[Help](https://github.com/xiaoxinwangluo/android_xposedapp_eternalprocessxposed/tree/master/help)
 
 
 * 切换分支可以看到各个版本的源码
