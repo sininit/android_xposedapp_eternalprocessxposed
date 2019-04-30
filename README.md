@@ -4,9 +4,9 @@ Xda link: https://forum.xda-developers.com/xposed/modules/mod-eternal-process-lo
 * 切换分支可以看到各个版本的源码
 * Switch branches can see all versions of the source code
 
-# 更新后需要取消勾选模块再勾选模块才重启系统
-# Updated to uncheck the module to check the module to restart the system
- 
+# 更新后需要取消勾选模块再勾选模块
+# After updating the module, uncheck the module and then tick the module
+
 
 * 模块需要Xposed框架的支持
 * Module needs the support of Xposed framework
@@ -27,7 +27,7 @@ Normal Lock(black lock): Automatic cleanup app can not be cleaned when system me
 永恒锁: 无论在什么情况下系统都无法清理你的应用后台
 Eternal Lock(RED lock): No matter under any circumstances the system can clean up your app background
 
-太极magisk说明
+太极magisk说明：
 太极5.1.8下载 https://taichi.ctfile.com/fs/19604958-365278317
 太极magisk模块4.7.0 下载 https://www.lanzous.com/i37r5vi
 在太极 启动模块 并 添加应用 “Android 系统” 重启设备 才能生效
