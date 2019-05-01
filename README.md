@@ -2,6 +2,8 @@
 
 [Help](https://github.com/xiaoxinwangluo/android_xposedapp_eternalprocessxposed/tree/master/help)
 
+[Download](http://repo.xposed.info/module/top.fols.aapp.eternalprocessxposed)
+
 ```
 
 
