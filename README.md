@@ -22,4 +22,7 @@
 
 * Xposed修改有风险 安装本应用代表你愿意承担风险.请谨慎操作
 Xposed Modify risky installation This app means you're willing to take risks. Please operate with caution
+
+* 永恒锁校验方法: 使用用永恒锁锁住网易云音乐 ，打开网易云音乐随便播放一首歌曲，然后强制停止应用，看看它是否还在播放
+Eternal lock verification method: Use the Eternal Lock to lock Netease Cloud Music, open Netease Cloud Music and play a song casually, then force the application to stop and see if it is still playing.
 ```
