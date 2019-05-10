@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">进程锁</string>
+    <string name="donation">捐赠</string>
+	<string name="setting">设置</string>
+	<string name="about">关于</string>
+
+	<string name="on">开启</string>
+    <string name="off">关闭</string>
+	
+	<string name="apploading">加载应用</string>
+	
+	<string name="deselect">不选</string>
+	<string name="select_all">全选</string>
+	<string name="select_invert">反选</string>
+	<string name="select_systemapp">选择系统应用</string>
+	<string name="select_userapp">选择用户应用</string>
+	<string name="select_unknownapp">选择未知应用</string>
+	<string name="not_select_systemapp">不选择系统应用</string>
+	<string name="not_select_userapp">不选择用户应用</string>
+	<string name="not_select_unknownapp">不选择未知应用</string>
+
+	<string name="remove_lock">删除锁</string>
+	<string name="add_lock">添加锁</string>
+	<string name="add_eternal_lock">添加永恒锁</string>
+
+	<string name="save_data_error">保存数据错误</string>
+
+	<string name="inactivated_xposed_modules">Xposed模块没有激活</string>
+	<string name="xposed_modules_no_update">Xposed模块没有更新</string>
+	<string name="restart_app_effective">您可能需要重新启动所操作的应用, 配置才能生效</string>
+	<string name="eternallock_need_restart_device_effective">取消永恒锁可能需要重新启动设备才能生效</string>
+
+	<string name="qqgroup">Q群</string>
+
+	<string name="email">邮箱</string>
+	<string name="technical_support">技术支持</string>
+	<string name="technical_support_neigeshui233">内个谁233 (Ui 支持)</string>
+
+	<string name="author__gxin">GXin</string>
+	<string name="author">作者</string>
+	<string name="version">版本</string>
+
+	<string name="simple_one_sentence_introduction">永恒的进程</string>
+
+	<string name="successfully_copied">复制成功</string>
+	<string name="not_found_file">找不到文件</string>
+
+	
+	<string name="failed_to_start_alipay">启动支付宝失败</string>
+	<string name="failed_to_start_qq">启动QQ失败</string>
+
+	<string name="running">运行中</string>
+	<string name="select_locked">选择有锁的</string>
+	<string name="not_select_locked">不选择有锁的</string>
+	<string name="select_ordinary_lock">选择一般锁</string>
+	<string name="not_select_ordinary_lock">不选择一般锁</string>
+	<string name="select_eternal_lock">选择永恒锁</string>
+	<string name="not_select_eternal_lock">不选择永恒锁</string>
+
+	<string name="showsystemapp">显示系统应用</string>
+	<string name="unknown">未知</string>
+	<string name="showeternallockoptions">显示永恒锁操作</string>
+	<string name="showhomeicon">显示桌面图标</string>
+	
+	<string name="newappinstallautoaddlock">新应用安装时自动添加锁</string>
+	<string name="newappinstallautoaddlockreminder">已经添加锁给新应用</string>
+	<string name="reminder">提示</string>
+	
+	<string name="youmayneedtorestartyourdevice">你可能需要重启设备</string>
+	
+	<string name="help">帮助</string>
+</resources>
