@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/color_layout_bg"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:paddingBottom="6dp"
+			android:paddingTop="6dp">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="6dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/card_bg"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:background="@drawable/card_top_bg"
+					android:gravity="center_vertical"
+					android:paddingLeft="8dp"
+					android:text="@string/version"
+					android:textColor="@color/color_text_title"
+					android:textSize="14sp"
+					android:textStyle="bold"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/card_center_bg"
+					android:orientation="horizontal"
+					android:paddingLeft="4dp">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:padding="8dp"
+						android:src="@drawable/ic_launcher"/>
+
+					<TextView
+						android:id="@+id/tv_version"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:gravity="center_vertical"
+						android:paddingLeft="14dp"
+						android:text="Unknown"
+						android:textColor="@color/color_text_value"
+						android:textSize="14sp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/card_center_bg"
+					android:orientation="horizontal"
+					android:paddingLeft="4dp">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:padding="8dp"
+						android:src="@drawable/ic_github"/>
+
+					<TextView
+						android:id="@+id/open_github"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:gravity="center_vertical"
+						android:paddingLeft="14dp"
+						android:text="Github"
+						android:textColor="@color/color_text_value"
+						android:textSize="14sp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="6dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/card_bg"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:background="@drawable/card_top_bg"
+					android:gravity="center_vertical"
+					android:paddingLeft="8dp"
+					android:text="@string/author"
+					android:textColor="@color/color_text_title"
+					android:textSize="14sp"
+					android:textStyle="bold"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/card_center_bg"
+					android:orientation="horizontal"
+					android:paddingLeft="4dp">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:padding="8dp"
+						android:src="@drawable/ic_laptop_grey_600_24dp"/>
+
+					<TextView
+						android:id="@+id/tv_author_wawashiwo"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:gravity="center_vertical"
+						android:paddingLeft="14dp"
+						android:text="@string/author__gxin"
+						android:textColor="@color/color_text_value"
+						android:textSize="14sp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="6dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/card_bg"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:background="@drawable/card_top_bg"
+					android:gravity="center_vertical"
+					android:paddingLeft="8dp"
+					android:text="@string/technical_support"
+					android:textColor="@color/color_text_title"
+					android:textSize="14sp"
+					android:textStyle="bold"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/card_center_bg"
+					android:orientation="horizontal">
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/card_center_bg"
+						android:orientation="horizontal"
+						android:paddingLeft="4dp">
+
+						<ImageView
+							android:layout_width="40dp"
+							android:layout_height="40dp"
+							android:padding="8dp"
+							android:src="@drawable/ic_mode_edit_grey_600_24dp"/>
+
+						<TextView
+							android:id="@+id/tv_technical_support_neigeshui233"
+							android:layout_width="match_parent"
+							android:layout_height="40dp"
+							android:gravity="center_vertical"
+							android:paddingLeft="14dp"
+							android:text="@string/technical_support_neigeshui233"
+							android:textColor="@color/color_text_value"
+							android:textSize="14sp"/>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="6dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/card_bg"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:background="@drawable/card_top_bg"
+					android:gravity="center_vertical"
+					android:paddingLeft="14dp"
+					android:text="@string/email"
+					android:textColor="@color/color_text_title"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					style="@style/AppTheme"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/card_center_bg"
+					android:orientation="horizontal"
+					android:paddingLeft="4dp">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:padding="8dp"
+						android:src="@drawable/ic_email"/>
+
+					<TextView
+						android:id="@+id/tv_link_email"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:gravity="center_vertical"
+						android:paddingLeft="14dp"
+						android:text="784920843@qq.com"
+						android:textColor="@color/color_text_value"
+						android:textSize="14sp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="6dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/card_bg"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:background="@drawable/card_top_bg"
+					android:gravity="center_vertical"
+					android:paddingLeft="14dp"
+					android:text="@string/qqgroup"
+					android:textColor="@color/color_text_title"
+					android:textSize="14sp"
+					android:textStyle="bold"
+					style="@style/AppTheme"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/card_center_bg"
+					android:orientation="horizontal"
+					android:paddingLeft="4dp">
+
+					<ImageView
+						android:layout_width="40dp"
+						android:layout_height="40dp"
+						android:padding="8dp"
+						android:src="@drawable/ic_addfriend"/>
+
+					<TextView
+						android:id="@+id/tv_link_qqGroup"
+						android:layout_width="match_parent"
+						android:layout_height="40dp"
+						android:gravity="center_vertical"
+						android:paddingLeft="14dp"
+						android:text="486501436"
+						android:textColor="@color/color_text_value"
+						android:textSize="14sp"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

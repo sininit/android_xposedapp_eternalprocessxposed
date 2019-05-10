@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/drawer_menu_yy">
+
+		<item
+			android:id="@+id/nav_about"
+			android:title="@string/about"
+			android:icon="@drawable/ic_menu_about"
+		/>
+		<item
+			android:id="@+id/nav_donation"
+			android:title="@string/donation"
+			android:icon="@drawable/ic_menu_donation"
+		/>
+		<item
+			android:id="@+id/nav_setting"
+			android:title="@string/setting"
+			android:icon="@drawable/ic_menu_setting"
+		/>
+		
+		
+	</group>
+
+	<group android:id="@+id/drawer_menu_qt">
+		<item
+			android:id="@+id/nav_help"
+			android:title="@string/help"
+			android:icon="@drawable/ic_tag"
+		/>
+	
+	</group>
+	
+	
+</menu>
